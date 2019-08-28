@@ -1,0 +1,26 @@
+{
+  "name": "gobanggameserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2",
+    "ws": "^6.1.2"
+  },
+  "dependencies": {
+    "@types/mongodb": "^3.1.19",
+    "@types/uuid": "^3.4.4",
+    "@types/ws": "^6.0.1",
+    "mongodb": "^3.1.13",
+    "ts-md5": "^1.2.4",
+    "uuid": "^3.3.2"
+  }
+}
